@@ -1,0 +1,22 @@
+[project]
+name = "ColoredLogging"
+version = "0.1.2"
+authors = [
+  { name="sirin", email="misaka@sirin.moe" },
+]
+description = "A highly customizable package that can ouput colored logs to the console."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MiSAKASiRiN/ColoredLogging"
+"Bug Tracker" = "https://github.com/MiSAKASiRiN/ColoredLogging/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
